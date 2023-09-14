@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Inline Layout Switch | Demo 1 | Codrops</title>
+		<title>Inline Layout Switch | Demo 2 | Codrops</title>
 		<meta name="description" content="Two ideas for page transitions from an inline view to an image column or grid." />
 		<meta name="keywords" content="gsap flip, page transition, animation, frontend, layout" />
 		<meta name="author" content="Codrops" />
@@ -13,7 +13,7 @@
 		<script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
 		<script src="//tympanus.net/codrops/adpacks/analytics.js"></script>
 	</head>
-	<body class="demo-1 loading">
+	<body class="demo-2 loading">
 		<main>
 			<div class="frame">
 				<div class="frame__title"> 
@@ -26,56 +26,93 @@
 				</div>
 				<a class="frame__prev" href="http://tympanus.net/Development/3DTypeEffects">Previous demo</a>
 				<nav class="frame__demos">
-					<span class="frame__demos-item">Demo I</span>
-					<a class="frame__demos-item" href="index2.html">Demo II</a>
+					<a class="frame__demos-item" href="index.html">Demo I</a>
+					<span class="frame__demos-item">Demo II</span>
 				</nav>
 			</div>
-			<div class="content">
-				<div class="content__item">
-					<div class="title-wrap">
-						<span class="number oh"><span class="oh__inner">01</span></span>
-						<h3 class="title oh"><span class="oh__inner">Grand Belle</span></h3>
+			<div class="grid">
+				<div class="grid__item">
+					<button class="back unbutton"><svg width="100" height="18" viewBox="0 0 50 9"><path vector-effect="non-scaling-stroke" d="m0 4.5 5-3m-5 3 5 3m45-3h-77"></path></svg></button>
+				</div>
+				<div class="grid__item">
+					<div class="image">
+						<div class="image__inner" style="background-image:url(img/1.jpg)"></div>
 					</div>
 				</div>
-				<div class="content__item">
-					<div class="title-wrap">
-						<span class="number oh"><span class="oh__inner">02</span></span>
-						<h3 class="title oh"><span class="oh__inner">Fiction Freak</span></h3>
+				<div class="grid__item">
+					<div class="image">
+						<div class="image__inner" style="background-image:url(img/2.jpg)"></div>
 					</div>
 				</div>
-				<div class="content__item content__item--current">
-					<div class="title-wrap">
-						<button class="back unbutton"><svg width="50" height="9" viewBox="0 0 50 9"><path vector-effect="non-scaling-stroke" d="m0 4.5 5-3m-5 3 5 3m45-3h-77"></path></svg></button>
-						<span class="number oh"><span class="oh__inner">03</span></span>
-						<h3 class="title oh"><span class="oh__inner">Frankie Low</span></h3>
+				<div class="grid__item">
+					<div class="image">
+						<div class="image__inner" style="background-image:url(img/3.jpg)"></div>
 					</div>
 				</div>
-				<div class="content__item">
-					<div class="title-wrap">
-						<span class="number oh"><span class="oh__inner">04</span></span>
-						<h3 class="title oh"><span class="oh__inner">Opion Release</span></h3>
+				<div class="grid__item">
+					<div class="image">
+						<div class="image__inner" style="background-image:url(img/4.jpg)"></div>
 					</div>
 				</div>
-				<div class="content__item">
-					<div class="title-wrap">
-						<span class="number oh"><span class="oh__inner">05</span></span>
-						<h3 class="title oh"><span class="oh__inner">War Herd</span></h3>
+				<div class="grid__item">
+					<div class="image">
+						<div class="image__inner" style="background-image:url(img/11.jpg)"></div>
+					</div>
+				</div>
+				<div class="grid__item">
+					<div class="image">
+						<div class="image__inner" style="background-image:url(img/9.jpg)"></div>
+					</div>
+				</div>
+				<div class="grid__item">
+					<div class="image">
+						<div class="image__inner" style="background-image:url(img/8.jpg)"></div>
+					</div>
+				</div>
+				<div class="grid__item">
+					<div class="image">
+						<div class="image__inner" style="background-image:url(img/7.jpg)"></div>
+					</div>
+				</div>
+				<div class="grid__item">
+					<div class="image">
+						<div class="image__inner" style="background-image:url(img/6.jpg)"></div>
+					</div>
+				</div>
+				<div class="grid__item">
+					<div class="image">
+						<div class="image__inner" style="background-image:url(img/10.jpg)"></div>
+					</div>
+				</div>
+				<div class="grid__item">
+					<div class="image">
+						<div class="image__inner" style="background-image:url(img/12.jpg)"></div>
+					</div>
+				</div>
+				<div class="grid__item">
+					<div class="image">
+						<div class="image__inner" style="background-image:url(img/13.jpg)"></div>
+					</div>
+				</div>
+				<div class="grid__item">
+					<div class="image">
+						<div class="image__inner" style="background-image:url(img/14.jpg)"></div>
 					</div>
 				</div>
 			</div>
 			<div class="prime">
-				<div class="image image--bg"><div class="image__inner" style="background-image:url(img/bg.jpg)"></div></div>
+				<div class="image image--bg"><div class="image__inner" style="background-image:url(img/bg2.jpg)"></div></div>
 				<div class="intro">
 					<div class="image-wrap">
 						<div class="image">
-							<div class="image__inner" style="background-image:url(img/1.jpg)"></div>
+							<div class="image__inner" style="background-image:url(img/14.jpg)"></div>
 						</div>
 					</div>
 					<span class="oh"><span class="oh__inner">She</span></span>
 					<span class="oh"><em class="oh__inner">who</em></span> 
 					<div class="image-wrap">
 						<div class="image">
-							<div class="image__inner" style="background-image:url(img/2.jpg)"></div>
+							<div class="image__inner" style="background-image:url(img/13.jpg)"></div>
 						</div>
 					</div>
 					<span class="oh"><span class="oh__inner">conquers</span></span> 
@@ -85,13 +122,13 @@
 					<span class="oh"><em class="oh__inner">mightiest</em></span>
 					<div class="image-wrap">
 						<div class="image">
-							<div class="image__inner" style="background-image:url(img/3.jpg)"></div>
+							<div class="image__inner" style="background-image:url(img/12.jpg)"></div>
 						</div>
 					</div>
 					<span class="oh"><span class="oh__inner">warrioress.</span></span>
 					<div class="image-wrap">
 						<div class="image">
-							<div class="image__inner" style="background-image:url(img/4.jpg)"></div>
+							<div class="image__inner" style="background-image:url(img/10.jpg)"></div>
 						</div>
 					</div>
 				</div>
@@ -118,9 +155,9 @@
 						<a class="social__item" href="https://www.facebook.com/codrops/">fb</a>
 					</nav>
 				</footer>
-			</div>		
+			</div>
 		</main>
-		<script type="module" src="js/index.js"></script>
-		<script src="https://tympanus.net/codrops/adpacks/cda_sponsor.js"></script>
 	</body>
+	<script type="module" src="js/index2.js"></script>
+	<script src="https://tympanus.net/codrops/adpacks/cda_sponsor.js"></script>
 </html>
